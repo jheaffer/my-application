@@ -15,7 +15,7 @@ export class TrainerServiceService {
       name:'Misty',
       team: ['Starmie', 'Psyduck', 'Gyarados'],
       items: ['Mystic Water', 'None', 'Gyaradosite']
-    }//Add 3 more trainers
+    },//Add 3 more trainers
     {
       name:'Brock',
       team: ['Onix', 'Geodude', 'Vulpix'],
