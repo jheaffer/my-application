@@ -16,8 +16,23 @@ export class TrainerServiceService {
       team: ['Starmie', 'Psyduck', 'Gyarados'],
       items: ['Mystic Water', 'None', 'Gyaradosite']
     }//Add 3 more trainers
+    {
+      name:'Brock',
+      team: ['Onix', 'Geodude', 'Vulpix'],
+      items: ['Hard Stone', 'None', 'None']
+    },
+    {
+      name:'Gary Oak',
+      team: ['Eevee', 'Blastoise', 'Arcanine'],
+      items: ['Eevee Candy', 'Blastoisinite', 'None']
+    },
+    {
+      name:'May',
+      team: ['Torchic', 'Skitty', 'Gardevoir'],
+      items: ['None', 'None', 'Gardevoirite']
+    }
   ]);
   //Expose signal as read-only
   trainers = this.registry.asReadonly();
-  
+
 }
